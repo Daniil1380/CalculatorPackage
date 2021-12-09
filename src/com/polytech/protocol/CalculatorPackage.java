@@ -1,3 +1,4 @@
+package com.polytech.protocol;
 
 import java.nio.ByteBuffer;
 
@@ -102,7 +103,7 @@ public class CalculatorPackage {
 
     @Override
     public String toString() {
-        return "CalculatorPackage{" +
+        return "com.polytech.protocol.CalculatorPackage{" +
                 "speed=" + (byte) (speed >> 7 & 0b00000001) +
                 ", operation=" + (byte) (operation >> 5 & 0b00000011) +
                 ", error=" + error +
